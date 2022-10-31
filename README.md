@@ -5,3 +5,4 @@
 4. With this, we can open Jupyter Notebook and navigate to the directory that the notebooks and csv files are in.
 5. To use the training data (**train_set_github.csv**) to train the model, use the notebook **Project 2 - Training Script for Github** and run all the codes
 6. After running all the codes, the model will be outputted in the form of a sav file (**gradientboostingclassifier.sav**)
+7. This sav file will be used in the prediction script (**Project 2 - Prediction Script for Github**)
