@@ -1,4 +1,4 @@
-# DSA4262-Project-2
+# DSA4262-Project-2-Student-Replication
 1. Click on the green **Code** button and select the option *Download ZIP* to download the scripts and csv files into local environment.
 2. Once the zip file has been downloaded, drag the file into the directory of your choice.
 3. After the file has been dragged into the directory, click one level into the zip file and drag the folder that you see into the parent directory.
