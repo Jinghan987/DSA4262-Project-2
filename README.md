@@ -3,7 +3,7 @@
 
 **I. For coursemates to follow along - prediction using model**
 <p>
-1. Start up an AWS ubuntu instance before running the following codes to install Jupyter Notebook. You can also follow the video demonstration if you are not sure how to install it on your own.
+1. Start up an AWS ubuntu instance before proceeding to the next steps to install Jupyter Notebook. You can also follow the video demonstration if you are not sure how to install it on your own. **Before proceeding any further, please shut down your local Jupyter Notebook if it is using port 8889.**
 </p>
 <p>
 2. Using powershell/ terminal, run the following code first to connect to the AWS instance before proceeding to run the rest of the codes: <b>ssh -i {pem_file_directory} -L 8889:localhost:8889 ubuntu@{aws_instance_ip_address}</b> 
@@ -30,7 +30,7 @@
   
 **II. For training a model and using that model for predictions**
 <p>
-1. Start up an AWS ubuntu instance before running the following codes to install Jupyter Notebook. You can also follow the video demonstration if you are not sure how to install it on your own.
+1. Start up an AWS ubuntu instance before running the following codes to install Jupyter Notebook. You can also follow the video demonstration if you are not sure how to install it on your own. **Before proceeding any further, please shut down your local Jupyter Notebook if it is using port 8889.**
 </p>
 <p>
 2. Using powershell/ terminal, run the following code first to connect to the AWS instance before proceeding to run the rest of the codes: <b>ssh -i {pem_file_directory} -L 8889:localhost:8889 ubuntu@{aws_instance_ip_address}</b> 
