@@ -25,7 +25,7 @@
 4. Once jupyter notebook has been opened, start a new notebook instance. Within this notebook instance, run the following command: <b>!git clone https://github.com/Jinghan987/DSA4262-Project-2-Repo.git</b>
 </p>
 <p>
-5. In order to do predictions using the model that has been trained, manually navigate to the <b>DSA4262-Project-2-Repo</b> and open up <b>Project 2 - Prediction Script for Github</b> and run all the codes. At the end of the script, the predictions for the test dataset (<i>test_set_github.csv</i>) will be outputted in the form of a csv file (<i>predictions.csv</i>).
+5. In order to do predictions using the model that has been trained, manually navigate to <b>DSA4262-Project-2-Repo</b> within Jupyter Notebook and open up <b>Project 2 - Prediction Script for Github</b> and run all the codes. At the end of the script, the predictions for the test dataset (<i>test_set_github.csv</i>) will be outputted in the form of a csv file (<i>predictions.csv</i>).
 </p>
   
 **II. For training a model and using that model for predictions**
@@ -51,7 +51,7 @@
   <li> jupyter notebook --port 8889 </li>
 </ul>
 <p>
-4. Once jupyter notebook has been opened, start a new notebook instance. Within this notebook instance, run the following command: <b>!git clone https://github.com/Jinghan987/DSA4262-Project-2-Repo.git</b>
+4. Once jupyter notebook has been opened, start a new notebook instance. Within this notebook instance, run the following command: <b>!git clone https://github.com/Jinghan987/DSA4262-Project-2-Repo.git</b>, then manually navigate to <b>DSA4262-Project-2-Repo</b> within Jupyter Notebook and open up <b>Project 2 - Training Script for Github.ipynb</b>
 </p>
 <p>
 5. We will first be using <b>Project 2 - Training Script for Github.ipynb</b> to train a GradientBoostingClassifier. This script will be using <i>train_set_github.csv</i> as an input, and the output from this script will be a model (<b>gradientboostingclassfier.sav</b>).
