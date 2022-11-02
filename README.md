@@ -18,10 +18,12 @@
   <li> jupyter notebook --port 8889 </li>
 </ul>
 <p>
-5. Once jupyter notebook has been installed in the ubuntu instance, we can open Jupyter Notebook and a new notebook instance. Within this notebook instance, run the following command: **!git clone https://github.com/Jinghan987/DSA4262-Project-2-Repo.git**
+5. Once jupyter notebook has been installed in the ubuntu instance, we can open Jupyter Notebook and a new notebook instance. Within this notebook instance, run the following command: <b>!git clone https://github.com/Jinghan987/DSA4262-Project-2-Repo.git</b>
 </p>
-6. In order to do predictions using the model that has been trained, manually navigate to the **DSA4262-Project-2-Repo** and open up **Project 2 - Prediction Script for Github** and run all the codes. At the end of the script, the predictions for the test dataset (*test_set_github.csv*) will be outputted in the form of a csv file (*predictions.csv*).
-
+<p>
+6. In order to do predictions using the model that has been trained, manually navigate to the <b>DSA4262-Project-2-Repo</b> and open up <b>Project 2 - Prediction Script for Github</b> and run all the codes. At the end of the script, the predictions for the test dataset (<i>test_set_github.csv</i>) will be outputted in the form of a csv file (<i>predictions.csv</i>).
+</p>
+  
 **II. For training a model and using that model for predictions**
 1. Click on the green **Code** button and select the option *Download ZIP* to download the scripts and csv files into local environment.
 2. Once the zip file has been downloaded, extract the files into the directory of your choice.
