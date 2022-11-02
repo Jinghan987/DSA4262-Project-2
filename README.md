@@ -54,11 +54,11 @@
 4. Once jupyter notebook has been installed in the ubuntu instance, we can open Jupyter Notebook and a new notebook instance. Within this notebook instance, run the following command: <b>!git clone https://github.com/Jinghan987/DSA4262-Project-2-Repo.git</b>
 </p>
 <p>
-5. We will first be using **Project 2 - Training Script for Github.ipynb** to train a GradientBoostingClassifier. This script will be using *train_set_github.csv* as an input, and the output from this script will be a model (**gradientboostingclassfier.sav**).
+5. We will first be using <b>Project 2 - Training Script for Github.ipynb</b> to train a GradientBoostingClassifier. This script will be using <i>train_set_github.csv</i> as an input, and the output from this script will be a model (<b>gradientboostingclassfier.sav</b>).
 </p>
 <p>
-6. Once the model has been outputted from **Project 2 - Training Script for Github.ipynb**, we move on to **Project 2 - Prediction Script for Github.ipynb**, where we will be using the model to predict the probabilities for the test data.
+6. Once the model has been outputted from <b>Project 2 - Training Script for Github.ipynb</b>, we move on to <b>Project 2 - Prediction Script for Github.ipynb</b>, where we will be using the model to predict the probabilities for the test data.
 </p>
 <p>
-7. **Project 2 - Prediction Script for Github.ipynb** will be using *test_set_github.csv* as an input and through this script, we will be able to obtain the outputs for the test data in the form of a csv file (*predictions.csv*).
+7. <b>Project 2 - Prediction Script for Github.ipynb</b> will be using <i>test_set_github.csv</i> as an input and through this script, we will be able to obtain the outputs for the test data in the form of a csv file (<i>predictions.csv</i>).
 </p>
