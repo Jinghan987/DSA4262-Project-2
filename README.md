@@ -2,8 +2,12 @@
 *The following showcases 2 sets of instructions - 1 set of instruction showing how to train a model and use that model to predict the probabilities for test data, while the other set showing how to use a model (gradientboostingclassifier.sav) for prediction.*
 
 **I. For coursemates to follow along - prediction using model**
+<p>
 1. Start up an AWS ubuntu instance before running the following codes. You can also follow the video demonstration if you are not sure how to install it on your own.
-2. Using powershell/ terminal, run the following code first before proceeding to run the rest of the codes: **ssh -i {pem_file_directory} -L 8889:localhost:8889 ubuntu@{aws_instance_ip_address}** 
+</p>
+<p>
+2. Using powershell/ terminal, run the following code first before proceeding to run the rest of the codes: <b>ssh -i {pem_file_directory} -L 8889:localhost:8889 ubuntu@{aws_instance_ip_address}</b> 
+</p>
 3. Copy paste the rest of the codes into powershell/ terminal.
 <ul>
   <li> sudo apt update </li>
@@ -43,7 +47,12 @@
 <p>
 4. Once jupyter notebook has been installed in the ubuntu instance, we can open Jupyter Notebook and a new notebook instance. Within this notebook instance, run the following command: <b>!git clone https://github.com/Jinghan987/DSA4262-Project-2-Repo.git</b>
 </p>
-
+<p>
 5. We will first be using **Project 2 - Training Script for Github.ipynb** to train a GradientBoostingClassifier. This script will be using *train_set_github.csv* as an input, and the output from this script will be a model (**gradientboostingclassfier.sav**).
+</p>
+<p>
 6. Once the model has been outputted from **Project 2 - Training Script for Github.ipynb**, we move on to **Project 2 - Prediction Script for Github.ipynb**, where we will be using the model to predict the probabilities for the test data.
+</p>
+<p>
 7. **Project 2 - Prediction Script for Github.ipynb** will be using *test_set_github.csv* as an input and through this script, we will be able to obtain the outputs for the test data in the form of a csv file (*predictions.csv*).
+</p>
