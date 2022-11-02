@@ -21,7 +21,7 @@
 <br>
 6. In order to do predictions using the model that has been trained, manually navigate to the **DSA4262-Project-2-Repo** and open up **Project 2 - Prediction Script for Github** and run all the codes. At the end of the script, the predictions for the test dataset (*test_set_github.csv*) will be outputted in the form of a csv file (*predictions.csv*).
 </br>
-<br>**II. For training a model and using that model for predictions**</br>
+**II. For training a model and using that model for predictions**
 <br> 1. Click on the green **Code** button and select the option *Download ZIP* to download the scripts and csv files into local environment.</br>
 <br> 2. Once the zip file has been downloaded, extract the files into the directory of your choice.</br>
 <br> 3. After the file has been dragged into the directory, click one level into the zip file and drag the folder that you see into the parent directory.</br>
