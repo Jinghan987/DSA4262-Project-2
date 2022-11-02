@@ -29,9 +29,15 @@
 </p>
   
 **II. For training a model and using that model for predictions**
+<p>
 1. Start up an AWS ubuntu instance before running the following codes. You can also follow the video demonstration if you are not sure how to install it on your own.
-2. Using powershell/ terminal, run the following code first before proceeding to run the rest of the codes: **ssh -i {pem_file_directory} -L 8889:localhost:8889 ubuntu@{aws_instance_ip_address}** 
+</p>
+<p>
+2. Using powershell/ terminal, run the following code first before proceeding to run the rest of the codes: <b>ssh -i {pem_file_directory} -L 8889:localhost:8889 ubuntu@{aws_instance_ip_address}</b> 
+</p>
+<p>
 3. Copy paste the rest of the codes into powershell/ terminal.
+</p>
 <ul>
   <li> sudo apt update </li>
   <li> sudo apt install python3-pip python3-dev </li>
