@@ -3,7 +3,7 @@
 
 **I. For coursemates to follow along - prediction using model**
 1. Start up an AWS ubuntu instance before running the following codes. You can also follow the video demonstration if you are not sure how to install it on your own.
-2. Using powershell/ terminal, run the following code first before proceeding to run the rest of the codes: **ssh -i 'C:\Users\jingh\Downloads\jh_aws.pem' -L 8889:localhost:8889 ubuntu@13.212.182.94** 
+2. Using powershell/ terminal, run the following code first before proceeding to run the rest of the codes: **ssh -i {pem_file_directory} -L 8889:localhost:8889 ubuntu@{aws_instance_ip_address}** 
 3. Copy paste the rest of the codes into powershell/ terminal.
 <ul>
   <li> sudo apt update </li>
