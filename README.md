@@ -6,7 +6,7 @@
 1. Start up an AWS ubuntu instance before running the following codes. You can also follow the video demonstration if you are not sure how to install it on your own.
 </p>
 <p>
-2. Using powershell/ terminal, run the following code first before proceeding to run the rest of the codes: <b>ssh -i {pem_file_directory} -L 8889:localhost:8889 ubuntu@{aws_instance_ip_address}</b> 
+2. Using powershell/ terminal, run the following code first to connect to the AWS instance before proceeding to run the rest of the codes: <b>ssh -i {pem_file_directory} -L 8889:localhost:8889 ubuntu@{aws_instance_ip_address}</b> 
 </p>
 3. Copy paste the rest of the codes into powershell/ terminal to install and open jupyter notebook.
 <ul>
@@ -33,7 +33,7 @@
 1. Start up an AWS ubuntu instance before running the following codes. You can also follow the video demonstration if you are not sure how to install it on your own.
 </p>
 <p>
-2. Using powershell/ terminal, run the following code first before proceeding to run the rest of the codes: <b>ssh -i {pem_file_directory} -L 8889:localhost:8889 ubuntu@{aws_instance_ip_address}</b> 
+2. Using powershell/ terminal, run the following code first to connect to the AWS instance before proceeding to run the rest of the codes: <b>ssh -i {pem_file_directory} -L 8889:localhost:8889 ubuntu@{aws_instance_ip_address}</b> 
 </p>
 <p>
 3. Copy paste the rest of the codes into powershell/ terminal to install and open jupyter notebook.
