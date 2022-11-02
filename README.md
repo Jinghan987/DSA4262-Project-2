@@ -15,3 +15,4 @@
 4. With this, we can open Jupyter Notebook and navigate to the directory that the notebooks and csv files are in.
 5. We will first be using **Project 2 - Training Script for Github.ipynb** to train a GradientBoostingClassifier. This script will be using *train_set_github.csv* as an input, and the output from this script will be a model (**gradientboostingclassfier.sav**).
 6. Once the model has been outputted from **Project 2 - Training Script for Github.ipynb**, we move on to **Project 2 - Prediction Script for Github.ipynb**, where we will be using the model to predict the probabilities for the test data.
+7. **Project 2 - Prediction Script for Github.ipynb** will be using **test_set_github.csv** as an input and through this script, we will be able to obtain the outputs for the test data.
