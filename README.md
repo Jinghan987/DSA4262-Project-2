@@ -1,7 +1,7 @@
 # DSA4262-Project-2
 *The following showcases 2 sets of instructions - 1 set of instruction showing how to train a model and use that model to predict the probabilities for test data, while the other set showing how to use a model (gradientboostingclassifier.sav) for prediction.*
 
-**1. For coursemates to follow along - prediction using model**
+**I. For coursemates to follow along - prediction using model**
 1. Click on the green **Code** button and select the option *Download ZIP* to download the scripts and csv files into local environment.
 2. Once the zip file has been downloaded, drag the file into the directory of your choice.
 3. After the file has been dragged into the directory, click one level into the zip file and drag the folder that you see into the parent directory.
@@ -9,7 +9,7 @@
 5. Once jupyter notebook has been installed in the ubuntu instance, we can open Jupyter Notebook then upload the notebook (**Project 2 - Prediction Script for Github.ipynb**), csv file (**test_set_github.csv**) and model (**gradientboostingclassifier.sav**).
 6. In order to do predictions using the model that has been trained, open up **Project 2 - Prediction Script for Github** and run all the codes. At the end of the script, the predictions for the test dataset (*test_set_github.csv*) will be outputted in the form of a csv file (*predictions.csv*).
 
-**2. For training a model and using that model for predictions**
+**II. For training a model and using that model for predictions**
 1. Click on the green **Code** button and select the option *Download ZIP* to download the scripts and csv files into local environment.
 2. Once the zip file has been downloaded, drag the file into the directory of your choice.
 3. After the file has been dragged into the directory, click one level into the zip file and drag the folder that you see into the parent directory.
