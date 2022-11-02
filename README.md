@@ -23,8 +23,8 @@
 </br>
 
 **II. For training a model and using that model for predictions**
-<br> 1. Click on the green **Code** button and select the option *Download ZIP* to download the scripts and csv files into local environment.</br>
-<br> 2. Once the zip file has been downloaded, extract the files into the directory of your choice.</br>
+1. Click on the green **Code** button and select the option *Download ZIP* to download the scripts and csv files into local environment.
+2. Once the zip file has been downloaded, extract the files into the directory of your choice.
 <br> 3. After the file has been dragged into the directory, click one level into the zip file and drag the folder that you see into the parent directory.</br>
 <br> 4. Start up an AWS ubuntu instance and follow the instructions from *https://www.digitalocean.com/community/tutorials/how-to-set-up-jupyter-notebook-with-python-3-on-ubuntu-18-04* to set up jupyter notebook in the ubuntu instance once the AWS instance has started. You can also follow the video demonstration if you are not sure how to install it on your own.</br>
 <br> 5. Once jupyter notebook has been installed in the ubuntu instance, we can open Jupyter Notebook and upload the notebooks and csv files into jupyter notebook.</br>
