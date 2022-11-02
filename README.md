@@ -3,8 +3,7 @@
 
 **I. For coursemates to follow along - prediction using model**
 1. Start up an AWS ubuntu instance before following the instructions from *https://www.digitalocean.com/community/tutorials/how-to-set-up-jupyter-notebook-with-python-3-on-ubuntu-18-04* to set up jupyter notebook in the ubuntu instance once the AWS instance has started. You can also follow the video demonstration if you are not sure how to install it on your own.
-2. Once jupyter notebook has been installed in the ubuntu instance, we can open Jupyter Notebook and a new notebook instance. Within this notebook instance, run the following commands: 
-<li>**!git clone https://github.com/Jinghan987/DSA4262-Project-2-Repo.git**<\li>
+2. Once jupyter notebook has been installed in the ubuntu instance, we can open Jupyter Notebook and a new notebook instance. Within this notebook instance, run the following command **!git clone https://github.com/Jinghan987/DSA4262-Project-2-Repo.git**.
 3. In order to do predictions using the model that has been trained, open up **Project 2 - Prediction Script for Github** and run all the codes. At the end of the script, the predictions for the test dataset (*test_set_github.csv*) will be outputted in the form of a csv file (*predictions.csv*).
 
 **II. For training a model and using that model for predictions**
