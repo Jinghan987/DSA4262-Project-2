@@ -1,5 +1,5 @@
 # DSA4262-Project-2
-*The following showcases 2 sets of instructions - 1 set of instruction to train a model and use that model to predict the probabilities for test data, while the other set is solely talking about how to use a model (gradientboostingclassifier.sav) for prediction.*
+*The following showcases 2 sets of instructions - 1 set of instruction showing how to train a model and use that model to predict the probabilities for test data, while the other set showing how to use a model (gradientboostingclassifier.sav) for prediction.*
 
 **1. For coursemates to follow along - prediction using model**
 1. Click on the green **Code** button and select the option *Download ZIP* to download the scripts and csv files into local environment.
