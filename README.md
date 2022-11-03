@@ -1,7 +1,7 @@
 # DSA4262-Project-2
 *The following showcases 2 sets of instructions - 1 set of instruction showing how to train a model and use that model to predict the probability that the DRACH sites in the test data are m6A positive, while the other set showing how to use a model (gradientboostingclassifier.sav) for prediction.* For my coursemates, please follow **I. Prediction using model**
 
-<H1>I. Prediction using model</H1>
+<h3>I. Prediction using model</h3>
 <p>
 1. Start up an AWS ubuntu instance before proceeding to the next steps to install Jupyter Notebook. You can also follow the video demonstration if you are not sure how to install it on your own. <b>Before proceeding any further, please shut down your local Jupyter Notebook if it is using port 8889.</b>
 </p>
@@ -28,7 +28,7 @@
 5. In order to do predictions using the model that has been trained, manually navigate to <b>DSA4262-Project-2-Repo</b> within Jupyter Notebook and open up <b>Project 2 - Prediction Script for Github</b> and run all the codes. At the end of the script, the predictions for the test dataset (<i>test_set_github.csv</i>) will be outputted in the form of a csv file (<i>predictions.csv</i>). From <i>predictions.csv</i>, we will be able to observe which DRACH sites are predicted to be m6A positive and which are not.
 </p>
   
-<H1>II. Model training and prediction using model</H1>
+<h3>II. Model training and prediction using model</h3>
 <p>
 1. Start up an AWS ubuntu instance before running the following codes to install Jupyter Notebook. You can also follow the video demonstration if you are not sure how to install it on your own. <b>Before proceeding any further, please shut down your local Jupyter Notebook if it is using port 8889.</b>
 </p>
