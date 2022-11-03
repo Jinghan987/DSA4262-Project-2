@@ -1,5 +1,5 @@
 # DSA4262-Project-2
-*The following showcases 2 sets of instructions - 1 set of instruction showing how to train a model and use that model to predict the probabilities for test data, while the other set showing how to use a model (gradientboostingclassifier.sav) for prediction.* For my coursemates, please follow **I. Prediction using model**
+*The following showcases 2 sets of instructions - 1 set of instruction showing how to train a model and use that model to predict the probability that the DRACH sites in the test data are m6A positive, while the other set showing how to use a model (gradientboostingclassifier.sav) for prediction.* For my coursemates, please follow **I. Prediction using model**
 
 **I. Prediction using model**
 <p>
@@ -23,10 +23,10 @@
 </ul>
 <ul>
 <p>
-4. Once jupyter notebook has been opened, start a new notebook instance. Within this notebook instance, run the following command: <b>!git clone https://github.com/Jinghan987/DSA4262-Project-2-Repo.git</b>
+4. Once jupyter notebook has been opened, start a new notebook instance. Within this notebook instance, run the following command: <b>!git clone https://github.com/Jinghan987/DSA4262-Project-2-Repo.git</b>, which will clone the codes in this repository into Jupyter Notebook.
 </p>
 <p>
-5. In order to do predictions using the model that has been trained, manually navigate to <b>DSA4262-Project-2-Repo</b> within Jupyter Notebook and open up <b>Project 2 - Prediction Script for Github</b> and run all the codes. At the end of the script, the predictions for the test dataset (<i>test_set_github.csv</i>) will be outputted in the form of a csv file (<i>predictions.csv</i>).
+5. In order to do predictions using the model that has been trained, manually navigate to <b>DSA4262-Project-2-Repo</b> within Jupyter Notebook and open up <b>Project 2 - Prediction Script for Github</b> and run all the codes. At the end of the script, the predictions for the test dataset (<i>test_set_github.csv</i>) will be outputted in the form of a csv file (<i>predictions.csv</i>). From <i>predictions.csv</i>, we will be able to observe which DRACH sites are predicted to be m6A positive and which are not.
 </p>
   
 **II. Model training and prediction using model**
@@ -52,14 +52,14 @@
   <li> jupyter notebook --port 8889 </li>
 </ul>
 <p>
-4. Once jupyter notebook has been opened, start a new notebook instance. Within this notebook instance, run the following command: <b>!git clone https://github.com/Jinghan987/DSA4262-Project-2-Repo.git</b>, then manually navigate to <b>DSA4262-Project-2-Repo</b> within Jupyter Notebook and open up <b>Project 2 - Training Script for Github.ipynb</b>
+4. Once jupyter notebook has been opened, start a new notebook instance. Within this notebook instance, run the following command: <b>!git clone https://github.com/Jinghan987/DSA4262-Project-2-Repo.git</b>, which will clone the codes in this repository into Jupyter Notebook. Then manually navigate to <b>DSA4262-Project-2-Repo</b> within Jupyter Notebook and open up <b>Project 2 - Training Script for Github.ipynb</b>
 </p>
 <p>
-5. We will first be using <b>Project 2 - Training Script for Github.ipynb</b> to train a GradientBoostingClassifier. This script will be using <i>train_set_github.csv</i> as an input, and the output from this script will be a model (<b>gradientboostingclassfier.sav</b>).
+5. We will first be using <b>Project 2 - Training Script for Github.ipynb</b> to train a GradientBoostingClassifier. This script will be using <i>train_set_github.csv</i> as an input, and the output from this script will be a model (<b>gradientboostingclassfier.sav</b>), which will be used in <b>Project 2 - Prediction Script for Github.ipynb</b>. This model will then be able to predict the probability that a DRACH site is m6A positive.
 </p>
 <p>
-6. Once the model has been outputted from <b>Project 2 - Training Script for Github.ipynb</b>, we move on to <b>Project 2 - Prediction Script for Github.ipynb</b>, where we will be using the model to predict the probabilities for the test data.
+6. Once the model has been outputted from <b>Project 2 - Training Script for Github.ipynb</b>, we move on to <b>Project 2 - Prediction Script for Github.ipynb</b>, where we will be using the model to predict the probability that a DRACH site in the test data is m6A positive.
 </p>
 <p>
-7. <b>Project 2 - Prediction Script for Github.ipynb</b> will be using <i>test_set_github.csv</i> as an input and through this script, we will be able to obtain the outputs for the test data in the form of a csv file (<i>predictions.csv</i>).
+7. <b>Project 2 - Prediction Script for Github.ipynb</b> will be using <i>test_set_github.csv</i> as an input and through this script, we will be able to obtain the outputs for the test data in the form of a csv file (<i>predictions.csv</i>). From <i>predictions.csv</i>, we will be able to observe which DRACH sites are predicted to be m6A positive and which are not.
 </p>
