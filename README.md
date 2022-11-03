@@ -6,7 +6,7 @@
 1. Start up an AWS ubuntu instance before proceeding to the next steps to install Jupyter Notebook. You can also follow the video demonstration if you are not sure how to install it on your own. <b>Before proceeding any further, please shut down your local Jupyter Notebook if it is using port 8889.</b>
 </p>
 <p>
-  2. Using powershell (<i>For Windows Users</i>)/ terminal(<i>For Mac Users</i>), run the following code first to connect to the AWS instance before proceeding to run the rest of the codes: <b>ssh -i {pem_file_directory} -L 8889:localhost:8889 ubuntu@{aws_instance_ip_address}</b> 
+  2. Using powershell (<i>For Windows Users</i>)/ terminal (<i>For Mac Users</i>), run the following code first to connect to the AWS instance before proceeding to run the rest of the codes: <b>ssh -i {pem_file_directory} -L 8889:localhost:8889 ubuntu@{aws_instance_ip_address}</b> 
 </p>
 3. Copy paste the rest of the codes into powershell/ terminal to install and open jupyter notebook.
 <ul>
@@ -33,7 +33,7 @@
 1. Start up an AWS ubuntu instance before running the following codes to install Jupyter Notebook. You can also follow the video demonstration if you are not sure how to install it on your own. <b>Before proceeding any further, please shut down your local Jupyter Notebook if it is using port 8889.</b>
 </p>
 <p>
-2. Using powershell (<i>For Windows Users</i>)/ terminal(<i>For Mac Users</i>), run the following code first to connect to the AWS instance before proceeding to run the rest of the codes: <b>ssh -i {pem_file_directory} -L 8889:localhost:8889 ubuntu@{aws_instance_ip_address}</b> 
+2. Using powershell (<i>For Windows Users</i>)/ terminal (<i>For Mac Users</i>), run the following code first to connect to the AWS instance before proceeding to run the rest of the codes: <b>ssh -i {pem_file_directory} -L 8889:localhost:8889 ubuntu@{aws_instance_ip_address}</b> 
 </p>
 <p>
 3. Copy paste the rest of the codes into powershell/ terminal to install and open jupyter notebook.
