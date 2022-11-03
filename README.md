@@ -8,7 +8,7 @@
 <p>
 2. Using powershell (<i>For Windows Users</i>)/ terminal (<i>For Mac Users</i>), run the following code first to connect to the AWS instance before proceeding to run the rest of the codes: <b>ssh -i {pem_file_directory} -L 8889:localhost:8889 ubuntu@{aws_instance_ip_address}</b> . 
   
-<i> Note that for mac users, you may experience some permission issues when utilising the pem file. If you do, try to run this command: <b>chmod 400 {pem_file_directory}</b> in your terminal before rerunning the ssh command in step 2.</i>
+<i> Note that for mac users, you may experience some permission issues when trying to ssh using your pem file. If you do, try to run this command: <b>chmod 400 {pem_file_directory}</b> in your terminal before rerunning the ssh command in step 2.</i>
 </p>
 3. Copy paste the rest of the codes into powershell/ terminal to install and open jupyter notebook.
 <ul>
@@ -37,7 +37,7 @@
 <p>
 2. Using powershell (<i>For Windows Users</i>)/ terminal (<i>For Mac Users</i>), run the following code first to connect to the AWS instance before proceeding to run the rest of the codes: <b>ssh -i {pem_file_directory} -L 8889:localhost:8889 ubuntu@{aws_instance_ip_address}</b> . 
   
-<i> Note that for mac users, you may experience some permission issues when utilising the pem file. If you do, try to run this command: <b>chmod 400 {pem_file_directory}</b> in your terminal before rerunning the ssh command in step 2.</i>
+<i> Note that for mac users, you may experience some permission issues when trying to ssh using your pem file. If you do, try to run this command: <b>chmod 400 {pem_file_directory}</b> in your terminal before rerunning the ssh command in step 2.</i>
 </p>
 <p>
 3. Copy paste the rest of the codes into powershell/ terminal to install and open jupyter notebook.
