@@ -21,6 +21,19 @@
   <li> pip install jupyter </li>
   <li> jupyter notebook --port 8889 </li>
 </ul>
+<ul>
+```
+sudo apt update
+sudo apt install python3-pip python3-dev
+sudo -H pip3 install --upgrade pip 
+sudo -H pip3 install virtualenv
+mkdir ~/my_project_dir
+cd ~/my_project_dir
+virtualenv my_project_env
+source my_project_env/bin/activate
+pip install jupyter
+jupyter notebook --port 8889 
+```
 <p>
 4. Once jupyter notebook has been opened, start a new notebook instance. Within this notebook instance, run the following command: <b>!git clone https://github.com/Jinghan987/DSA4262-Project-2-Repo.git</b>
 </p>
