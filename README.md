@@ -21,7 +21,6 @@
   <li> pip install jupyter </li>
   <li> jupyter notebook --port 8889 </li>
 </ul>
-<ul>
 <p>
 4. Once jupyter notebook has been opened, start a new notebook instance. Within this notebook instance, run the following command: <b>!git clone https://github.com/Jinghan987/DSA4262-Project-2-Repo.git</b>, which will clone the codes in this repository into Jupyter Notebook.
 </p>
