@@ -10,12 +10,10 @@
   
 <i> Note that for mac users, you may experience some permission issues when trying to ssh using your pem file. If you do, try to run this command: <b>chmod 400 {pem_file_directory}</b> in your terminal before rerunning the ssh command in step 2.</i>
 </p>
-3. Copy paste the rest of the codes into powershell/ terminal to install and open jupyter notebook.
+3. Copy paste the rest of the codes into powershell/ terminal to install and open jupyter notebook. Run the first 2 lines first before running the rest of the code.
 <ul>
   <li> sudo apt update </li>
   <li> sudo apt install python3-pip python3-dev </li>
-</ul>
-<ul>
   <li> sudo -H pip3 install --upgrade pip </li>
   <li> sudo -H pip3 install virtualenv </li>
   <li> mkdir ~/my_project_dir </li>
@@ -42,7 +40,7 @@
 <i> Note that for mac users, you may experience some permission issues when trying to ssh using your pem file. If you do, try to run this command: <b>chmod 400 {pem_file_directory}</b> in your terminal before rerunning the ssh command in step 2.</i>
 </p>
 <p>
-3. Copy paste the rest of the codes into powershell/ terminal to install and open jupyter notebook.
+3. Copy paste the rest of the codes into powershell/ terminal to install and open jupyter notebook. Run the first 2 lines first before running the rest of the code
 </p>
 <ul>
   <li> sudo apt update </li>
