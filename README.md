@@ -1,5 +1,5 @@
 # DSA4262-Project-2
-<font size="4"><i>The following showcases 2 sets of instructions - 1 set of instruction showing how to train a model and use that model to predict the probability that the DRACH sites in the test data are m6A positive, while the other set showing how to use a model (gradientboostingclassifier.sav) for prediction. <b>For my coursemates, please follow I. Prediction using model. Also, do not worry about the installation of the packages - those will be done in the notebook itself.</b></i></font>
+<font size="4"><i>The following showcases 2 sets of instructions - 1 set of instruction showing how to train a model and use that model to predict the probability that the DRACH sites in the test data are m6A positive, while the other set showing how to use a model (gradientboostingclassifier.sav) for prediction. <b>For my coursemates, please follow I. Prediction using model. Also, do not worry about the installation of the python packages - those will be done in the notebook itself.</b></i></font>
 
 <h3>I. Prediction using model</h3>
 <p>
