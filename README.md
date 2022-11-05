@@ -8,7 +8,7 @@
 1. Start up an AWS ubuntu instance before proceeding to the next steps to install Jupyter Notebook. You can also follow the video demonstration if you are not sure how to install it on your own. <b>Before proceeding any further, please shut down your local Jupyter Notebook.</b>
 </p>
 <p>
-2. Using powershell (<i>For Windows Users</i>)/ terminal (<i>For Mac Users</i>), run the following code first to connect to the AWS instance before proceeding to run the rest of the codes: <b>ssh -i {pem_file_directory} -L 8889:localhost:8889 ubuntu@{aws_instance_ip_address}</b> . 
+2. Using powershell / terminal, run the following code first to connect to the AWS instance before proceeding to run the rest of the codes: <b>ssh -i {pem_file_directory} -L 8889:localhost:8889 ubuntu@{aws_instance_ip_address}</b> . 
   
 <i> Note that for mac users, you may experience some permission issues when trying to ssh using your pem file. If you do, try to run this command: <b>chmod 400 {pem_file_directory}</b> in your terminal before rerunning the ssh command in step 2.</i>
 </p>
@@ -37,7 +37,7 @@
 1. Start up an AWS ubuntu instance before running the following codes to install Jupyter Notebook. You can also follow the video demonstration if you are not sure how to install it on your own. <b>Before proceeding any further, please shut down your local Jupyter Notebook if it is using port 8889.</b>
 </p>
 <p>
-2. Using powershell (<i>For Windows Users</i>)/ terminal (<i>For Mac Users</i>), run the following code first to connect to the AWS instance before proceeding to run the rest of the codes: <b>ssh -i {pem_file_directory} -L 8889:localhost:8889 ubuntu@{aws_instance_ip_address}</b> . 
+2. Using powershell / terminal, run the following code first to connect to the AWS instance before proceeding to run the rest of the codes: <b>ssh -i {pem_file_directory} -L 8889:localhost:8889 ubuntu@{aws_instance_ip_address}</b> . 
   
 <i> Note that for mac users, you may experience some permission issues when trying to ssh using your pem file. If you do, try to run this command: <b>chmod 400 {pem_file_directory}</b> in your terminal before rerunning the ssh command in step 2.</i>
 </p>
